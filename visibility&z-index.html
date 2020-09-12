@@ -11,14 +11,31 @@
             border: 2px solid black;
         }
         #box1{background-color: black;
+            position: relative;
+            top: 74px;
+            z-index: -1;
               /* dis none will hide the element and its place */
               /* display: none; */
               /* visibility will hide the element and its not place */
-              visibility: hidden;
+              /* visibility: hidden; */
         }
-        #box2{background-color: red;}
-        #box3{background-color: greenyellow;}
-        #box4{background-color: blueviolet;}
+        #box2{background-color: red;
+            position: relative;
+            top: 60px;
+            z-index: -1 ;
+            /* display: none; */
+            /* visibility: hidden; */
+        }
+        #box3{background-color: greenyellow;
+            position: relative;
+            top: 49px;
+            z-index: -1;
+        }
+        #box4{background-color: blueviolet;
+            position: relative;
+            z-index: 1;
+            
+        }
     </style>
 </head>
 <body>
